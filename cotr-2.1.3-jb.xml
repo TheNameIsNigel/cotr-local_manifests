@@ -5,10 +5,12 @@
 <manifest>
 	<!-- Replace CWM w/ COTR -->
     <remove-project name="CyanogenMod/android_bootable_recovery" />
+    <remove-project name="CyanogenMod/android_build" />
     <!-- Pull the most recent stable tag in case something has been changed. -->
     <project path="bootable/recovery" name="ProjectOpenCannibal/android_bootable_recovery" revision="jellybean-dev" />
 
     <!-- Add gui and res folders for COTR. -->
     <project path="bootable/recovery/res" name="ProjectOpenCannibal/android_bootable_recovery_res" revision="master" />
     <project path="bootable/recovery/gui" name="ProjectOpenCannibal/android_bootable_recovery_gui" revision="cotr-2.1-JB" />
+    <project path="build" name="thenameisnigel/android_build" revision="cm-10.1"
 </manifest>
