@@ -12,5 +12,5 @@
     <!-- Add gui and res folders for COTR. -->
     <project path="bootable/recovery/res" name="ProjectOpenCannibal/android_bootable_recovery_res" revision="master" />
     <project path="bootable/recovery/gui" name="ProjectOpenCannibal/android_bootable_recovery_gui" revision="cotr-2.1-JB" />
-    <project path="build" name="thenameisnigel/android_build" revision="cm-10.1"
+    <project path="build" name="thenameisnigel/android_build" revision="cm-10.1" />
 </manifest>
